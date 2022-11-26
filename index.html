@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图库</title>
+</head>
+<body>
+<font>美女图集<a href="">(想看畜生请点我)</a> </font>
+<br>
+<img id="photo" src="imgs/hyq/1.jpg" width="405" height="540">
+<script>
+    var photo = document.getElementById("photo");
+    var i = 1;
+    var time=1000;
+    // photo.onmouseenter(function (){
+    //     time=10000000;
+    // });
+    // photo.onmouseleave(function (){time=1000});
+    photo.on
+    setInterval(function () {
+        switch (i) {
+            case 1:
+            case 2:
+            case 3:
+                photo.weight = 405;
+                photo.height = 540;
+                break
+            case 4:
+            case 5:
+            case 6:
+                photo.weight = 540;
+                photo.height = 405;
+                break
+            case 7:
+                photo.weight = 432;
+                photo.height = 768;
+                break;
+            case 8:
+                photo.weight = 384;
+                photo.height = 2048;
+                break;
+            case 9:
+                photo.weight = 480;
+                photo.height = 640;
+                break;
+            default:
+                i=1;
+                photo.weight = 405;
+                photo.height = 540;
+        }
+        photo.src = "imgs/hyq/" + i + ".jpg"
+        i++;
+    }, time)
+</script>
+</body>
+</html>
