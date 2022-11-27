@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e67f9498-e2af-46d3-85f8-e9430ab3c86a" name="变更" comment="" />
+    <list default="true" id="e67f9498-e2af-46d3-85f8-e9430ab3c86a" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Demo1/mapper/BrandMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Demo1/pojo/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Demo1/servlet/BrandServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Demo1/util/SqlSessionFactoryUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Demo1/web/SelectAllServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Demo1/web/addServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Demo1/web/deleteByIdServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Demo1/web/selectByIdServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Demo1/web/updateAllServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Demo1/mapper/BrandMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/addData.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/brand.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +29,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2I4To3SPElhjVZKURAODRzxLxw8" />
   <component name="ProjectViewState">
@@ -20,6 +43,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="项目" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -34,11 +60,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669440026917</updated>
-      <workItem from="1669440028284" duration="308000" />
+      <workItem from="1669440028284" duration="1837000" />
+      <workItem from="1669536783281" duration="71000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
